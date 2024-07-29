@@ -22,3 +22,9 @@ int main(){
     printf("size of long double = %d bytes\n", sizeof(d));
     return 0;
 }
+
+
+// Void is an incomplete type. It means "Nothing" or "NO Type". You can think of void as Absent
+// For example, if a function is not returning anything, its return type should be void.
+
+// Note that, you cannot create variables of void type.
