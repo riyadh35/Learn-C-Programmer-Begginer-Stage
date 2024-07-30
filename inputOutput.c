@@ -32,6 +32,12 @@ int main(){
     printf("num1 = %f\n", num1);
     printf("num2 = %lf\n", num2);
 
+    int test;
+
+    printf("Enter your interger number:");
+    scanf("%d", &test);
+    printf("The number is = %d\n", test);
+
 
     return 0;
 }
