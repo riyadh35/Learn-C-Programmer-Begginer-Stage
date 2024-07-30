@@ -2,11 +2,19 @@
 int main(){
     // Displays the string quatations 
 
-    int testInteger = 5;
+    int testInteger;
+   // out put
+    // printf("Number = %d \n", testInteger);
 
-    printf("Number = %d \n", testInteger);
+    // Now check first get input then show in outputi;
 
-    printf("It's Output");
+
+    printf("Enter an Interger :");
+
+    scanf("%d", &testInteger);
+
+    printf("Number = %d", testInteger);
+
 
     return 0;
 }
