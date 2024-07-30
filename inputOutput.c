@@ -6,16 +6,16 @@ int main(){
 
     int testInteger;
    // out put
-    // printf("Number = %d \n", testInteger);
+    printf("Number = %d \n", testInteger);
 
     // Now check first get input then show in outputi;
 
 
-    // printf("Enter an Interger :");
+    printf("Enter an Interger :");
 
-    // scanf("%d", &testInteger);
+    scanf("%d", &testInteger);
 
-    // printf("Number = %d", testInteger);
+    printf("Number = %d", testInteger);
 
     /*Float and Double Input and Output in C Programmer*/
 

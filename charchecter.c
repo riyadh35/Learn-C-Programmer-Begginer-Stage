@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &ch);
 
 
-    printf("Enter your character number: \n");
+    // printf("Enter your character number: \n");
     // scanf("%c", &chr);
 
     printf("your character number = %d\n", ch);
