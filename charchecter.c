@@ -2,13 +2,20 @@
 
 int main(){
 
-    char chr;
+    // char chr;
+    int ch;
 
     printf("Please Enter your Character number :");
+    scanf("%d", &ch);
 
-    scanf("%c", &chr);
 
-    printf("your character number = %c\n", chr);
+    printf("Enter your character number: \n");
+    // scanf("%c", &chr);
+
+    printf("your character number = %d\n", ch);
+
+
+    // printf("Your character number is = %c\n", chr);
 
     return 0;
 }
