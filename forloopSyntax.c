@@ -2,9 +2,16 @@
 
 int main(){
 
-    int i;
-    for(i = 1; i <11 ; ++i){
-        printf("%d", i);
+    // Syntax
+    //  for (initializationStatement ; testExpression; updateStatement){
+        // Statements inside the body of for;
+    // }
+
+
+    int a ;
+
+    for ( a =2 ; a < 5 ; ++a){
+        printf("%d", a);
     }
 
     return 0;
