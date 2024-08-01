@@ -2,6 +2,9 @@
 
 int main(){
 
+    // Program to calculate the sum of first n natural numbers
+    // Positive integers 1,2,3...n are known as natural numbers
+
     int num , count ,sum = 0;
 
     printf("Inter positive number : ");
