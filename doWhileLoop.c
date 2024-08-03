@@ -19,7 +19,21 @@ while (testExpression);
 
 int main(){
 
-    double num1, sum1 = 0;
+    double num1, sum1 = 0;    
+    double number, sum = 0;
+
+    do{
+        printf("Enter a numner: ");
+        scanf("%lf", &number);
+
+        sum+=number;
+    }
+    while(number != 12);
+    printf("Sum = %.2lf", sum);
+    
+
+    return 0;
+
 
 
     // the body of the loop is executed at least once
