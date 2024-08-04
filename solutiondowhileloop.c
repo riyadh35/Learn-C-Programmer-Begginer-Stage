@@ -14,42 +14,42 @@ Q. Can you use the while loop to print the multiplication table for the given nu
 
 */
 
-// #include <stdio.h>
-
-// int main(){
-
-//     int number;
-
-//     printf("Enter the number : ");
-//     scanf("%d", &number);
-
-//     int count = 10;
-
-//     while(count >=10){
-
-//         int product = number * count;
-
-//         printf("%d * %d = %d\n", number , count, product);
-//         count = count - 1;
-//     }
-
-//     return 0;
-// }
-
 #include <stdio.h>
 
-int main() {
+int main(){
+
     int number;
-    printf("Enter the number: ");
+
+    printf("Enter the number : ");
     scanf("%d", &number);
-    
-    int count = 10; 
-    
-    while(count >= 1){
+
+    int count = 10;
+
+    while(count >=1){
+
         int product = number * count;
-        printf("%d * %d = %d\n", number, count, product);
+
+        printf("%d * %d = %d\n", number , count, product);
         count = count - 1;
     }
+
     return 0;
 }
+
+// #include <stdio.h>
+
+// int main() {
+//     int number;
+//     printf("Enter the number: ");
+//     scanf("%d", &number);
+    
+//     int count = 10; 
+    
+//     while(count >= 1){
+//         int product = number * count;
+//         printf("%d * %d = %d\n", number, count, product);
+//         count = count - 1;
+//     }
+//     return 0;
+// }
     
