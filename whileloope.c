@@ -35,11 +35,9 @@ int main(){
     {
         int product = number * count;
         printf("%d\n",product);
-        count = count +1;
-    }
+        count = count + 2;
+    }    
 
-    return 0;
-    
 
     return 0;
 }
