@@ -1,38 +1,29 @@
-// Logic to print week day by switch stataement problems 
-
+// Switch statement problems
 #include <stdio.h>
 
 int main(){
-    int week;
+    int month;
 
-    printf("Enter a Week numbers (1-7) : ");
-    scanf("%d", &week);
+    printf("Enter a month number (1-12): ");
+    scanf("%d", &month);
 
-    switch (week)
+    switch (month)
     {
     case 1:
-        printf("Monday");
+        printf("January");
         break;
     case 2:
-        printf("Tuesday");
+        printf("February");
         break;
     case 3:
-        printf("Wednesday");
-        break;
+    printf("March");
+    break;
     case 4:
-        printf("Thursday");
-        break;
-    case 5:
-        printf("Friday");
-        break;
-    case 6:
-        printf("Saturday");
-        break;
-    case 7:
-        printf("Sunday");
-        break;
+    printf("April");
+    break;
+
     default:
-        printf("Error ! You are don't enter a week number from 1 - 7");
+        printf("Ops! Sorry you are don't enter a month number....");
     }
 
     return 0;
