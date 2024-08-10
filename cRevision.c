@@ -14,13 +14,22 @@ int main (){
     printf("Enter two number :");
     scanf("%d%d", &num1, &num2);
 
-    // Only use if statement;
+    // // Only use if statement;
+
+    // if(num1 > num2){
+    //     printf("Num1 = %d is maximum number", num1);
+    // }
+
+    //     if(num1 < num2){
+    //     printf("Num2 = %d is maximum number", num2);
+    // }
+
+    // get maximum number use if else statement 
 
     if(num1 > num2){
         printf("Num1 = %d is maximum number", num1);
     }
-
-        if(num1 < num2){
+    else{
         printf("Num2 = %d is maximum number", num2);
     }
 
