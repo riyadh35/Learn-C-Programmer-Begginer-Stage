@@ -45,5 +45,12 @@ int main (){
         printf("The maximum number num1 = %d", num1);
     }
 
+    else if(num2 > num1 && num1 > num3){
+        printf("The maximum number num2 = %d", num2);
+    }
+    else {
+        printf("The maximum number is num3 = %d", num3);
+    }
+
     return 0;
 }
