@@ -57,41 +57,49 @@ int main (){
         // get grade system number using nested if else in c programme 
 
     
-    if(100 <= number || number >= 80){
-        if(number >= 90)
-        {
-            printf("You got goldern A+", number);
-        }else{
-            printf("You got A+");
-        }
+    // if(100 <= number || number >= 80){
+    //     if(number >= 90)
+    //     {
+    //         printf("You got goldern A+", number);
+    //     }else{
+    //         printf("You got A+");
+    //     }
+    // }
+
+    // else if(80 < number && number >=70){
+    //     printf("You got A...");
+    // }
+
+    // else if( 70 < number && number >= 60){
+    //     printf("You got B");
+    // }
+    // else if(60 < number && number >= 50){
+    //     printf("You got c ...");
+    // }
+
+    // else if(50 < number && number >= 40){
+    //     printf("You got D");
+    // }
+
+    // else if(40 < number && number >= 0.0){
+    //     printf("You are Faild !!!!");
+    // }
+
+    // else if (100 > number ){
+    //     printf("Envalid number..");
+    // }
+    // else{
+    //     printf("It's eroor");
+    // }
+
+
+
+    if(120 <= number || number >= 18){
+        printf("you can vote student");
     }
 
-    else if(80 < number && number >=70){
-        printf("You got A...");
-    }
-
-    else if( 70 < number && number >= 60){
-        printf("You got B");
-    }
-    else if(60 < number && number >= 50){
-        printf("You got c ...");
-    }
-
-    else if(50 < number && number >= 40){
-        printf("You got D");
-    }
-
-    else if(40 < number && number >= 0.0){
-        printf("You are Faild !!!!");
-    }
-
-    else if (100 > number ){
-        printf("Envalid number..");
-    }
     else{
-        printf("It's eroor");
+        printf("Invalid age for vote .... ");
     }
-    // else if(80)
-         
     return 0;
 }
