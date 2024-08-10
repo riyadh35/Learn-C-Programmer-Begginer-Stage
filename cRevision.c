@@ -20,7 +20,9 @@ int main (){
         printf("Num1 = %d is maximum number", num1);
     }
 
-
+        if(num1 < num2){
+        printf("Num2 = %d is maximum number", num2);
+    }
 
     return 0;
 }
