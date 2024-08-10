@@ -49,11 +49,19 @@ int main(){
     //     printf("%c\n", ch);
     //  }
 
-    int i;
+    // int i , n;
 
-    for(i = 2; i <= 20; i+= 2){
-        printf("%d\n", i);
-    }
+    // for(i = 2; i <= 20; i+= 2){
+    //     printf("%d\n", i);
+    // }
+
+
+    int i , n;
+
+    printf("Enter number for namta which are you want : ");
+    scanf("%d", &n);
+
+    for(i == 1 ; i <= 11 ; i *= n)
 
     return 0;
 
