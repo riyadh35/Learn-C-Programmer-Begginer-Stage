@@ -7,12 +7,12 @@ int main (){
 
     // if else statement ---- problem 
 
-    int num1, num2;
+    int num1, num2, num3;
 
     //Input two number from user
 
-    printf("Enter two number :");
-    scanf("%d%d", &num1, &num2);
+    printf("Enter theree  number :");
+    scanf("%d%d%d", &num1, &num2 , &num3);
 
     // // Only use if statement;
 
@@ -26,11 +26,23 @@ int main (){
 
     // get maximum number use if else statement 
 
-    if(num1 > num2){
-        printf("Num1 = %d is maximum number", num1);
-    }
-    else{
-        printf("Num2 = %d is maximum number", num2);
+    // if(num1 > num2){
+    //     printf("Num1 = %d is maximum number", num1);
+    // }
+    // else{
+    //     printf("Num2 = %d is maximum number", num2);
+    // }
+
+    // Write a C program to find maximum between three numbers.
+
+    
+
+    // get grade system number using nested if else in c programme 
+
+
+    if(num1 > num2 && num1 > num3){
+
+        printf("The maximum number num1 = %d", num1);
     }
 
     return 0;
