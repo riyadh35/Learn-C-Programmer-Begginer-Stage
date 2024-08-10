@@ -43,11 +43,17 @@ int main(){
     /*
         Program to print alphabets from a-z
     */
-     char ch;
+    //  char ch;
 
-     for( ch = 'a'; ch <= 'z'; ch++){
-        printf("%c\n", ch);
-     }
+    //  for( ch = 'a'; ch <= 'z'; ch++){
+    //     printf("%c\n", ch);
+    //  }
+
+    int i;
+
+    for(i = 2; i <= 20; i+= 2){
+        printf("%d\n", i);
+    }
 
     return 0;
 
