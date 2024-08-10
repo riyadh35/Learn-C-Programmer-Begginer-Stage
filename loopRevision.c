@@ -26,19 +26,28 @@ int main(){
         Program to print natural numbers in range 
     */
 
-    int i , start, end;
+    // int i , start, end;
 
-    printf("Enter start number: ");
-    scanf("%d", &start);
+    // printf("Enter start number: ");
+    // scanf("%d", &start);
 
-    printf("Enter end number: ");
-    scanf("%d", &end);
+    // printf("Enter end number: ");
+    // scanf("%d", &end);
 
-    printf("Natural number from %d to %d", start, end);
+    // printf("Natural number from %d to %d", start, end);
 
-    for(i == start; i <= end; i++){
-        printf("%d\n", i);
-    }
+    // for(i == start; i <= end; i++){
+    //     printf("%d\n", i);
+    // }
+
+    /*
+        Program to print alphabets from a-z
+    */
+     char ch;
+
+     for( ch = 'a'; ch <= 'z'; ch++){
+        printf("%c\n", ch);
+     }
 
     return 0;
 
