@@ -3,8 +3,9 @@
 int main(){
 
     
-    char ch;
+    char ch , raw;
     double number1, number2;
+
     jump:
 
     printf("Enter your operator: ");
@@ -28,7 +29,8 @@ int main(){
         printf("%.1lf / %.1lf = %.1lf", number1, number2, number1/number2);
         break;
     default:
-        printf("Opps!! You enter wrond operator. Try Again");
+        printf("Opps!! You enter wrond operator. Try Again\n");
+        scanf("%c", &raw);
         goto jump;
     }
     return 0;
