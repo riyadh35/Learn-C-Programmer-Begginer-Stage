@@ -11,9 +11,27 @@ int main(){
 
       switch (a)
       {
-      case 1:
-        printf("This is Sunday");
-        break;
+        case 1:
+            printf("This is Sunday");
+            break;
+        case 2:
+            printf("This is Monday");
+            break;
+        case 3:
+            printf("This is Tuesday");
+            break;
+        case 4:
+            printf("This is Wednesday");
+            break;
+        case 5:
+            printf("This is Thursday");
+            break;
+        case 6:
+            printf("This is Friday");
+            break;
+        case 7:
+            printf("This is Saturday");
+            break;
       
       default:
         printf("Error ! You enter out of 7 or bellow of 0");
