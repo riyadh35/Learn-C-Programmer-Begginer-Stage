@@ -2,18 +2,18 @@
 
 int main(){
     // program to add numbers until the user enters zero;
-    double number, sum = 0;
+    int number, sum = 0;
 
     // the body of the loop is executed at least one
 
     do{
         printf("Enter a number: ");
-        scanf("%lf", &number);
+        scanf("%d", &number);
 
         sum += number;
     }
-    while (number != 0.0);
-    printf("sum = %.2lf", sum);
+    while (number != 0);
+    printf("sum = %d", sum);
 
     return 0;
 }
