@@ -56,6 +56,15 @@ int main(){
         printf("%.1lf + %.1lf = %.1lf", number1, number2, number1 + number2);
         break;
     
+    case '-':
+        printf("%.1lf - %.1lf = %.1lf", number1, number2, number1 - number2);
+        break;
+    case '*':
+        printf("%.1lf * %.1lf = %.1lf", number1, number2, number1 * number2);
+        break;
+    case '/':
+        printf("%.1lf / %.1lf = %.1lf", number1, number2, number1/number2);
+        break;
     default:
         printf("Opps!! You enter wrond operator");
     }
