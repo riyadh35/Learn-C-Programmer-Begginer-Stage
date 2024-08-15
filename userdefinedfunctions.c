@@ -1,5 +1,5 @@
 #include <stdio.h>
-    int addNumebers( int a, int b); // function prototyep
+    int addNumbers( int a, int b);         // function prototyep
 
     int main(){
 
@@ -8,7 +8,7 @@
         printf("Enters two Numbers: ");
         scanf("%d %d", &n1, &n2);
 
-        sum = addNumebers(n1, n2);              // function call
+        sum = addNumbers(n1, n2);              // function call
         printf("sum = %d", sum);
         return 0;
     
