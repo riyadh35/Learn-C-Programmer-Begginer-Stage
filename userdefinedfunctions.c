@@ -10,7 +10,7 @@
     //     greet();
     //     return 0;
     // }
-    /* Calculate Square without return type on C User defined function */
+    /*------------------------------- Calculate Square without return type on C User defined function ---------------------------------------*/
     // void calculateSquare(int number){
     //     int square = number * number;
     //     printf("Square of %d is %d\n", number, square);
@@ -21,16 +21,33 @@
     //     return 0;
     // }
 
+    /*-------------------------------- Sum of Two Argument in C Programme User Defined Function without Return type --------------------------------------------*/
+    // void addNumbers(int number1, int number2){
+    //      int sum = number1 + number2;
+    //      printf("Sum of %d and %d is %d\n", number1, number2, sum);
+    // }
 
-    void addNumbers(int number1, int number2){
-         int sum = number1 + number2;
-         printf("Sum of %d and %d is %d\n", number1, number2, sum);
+    // int main(){
+    //     addNumbers(3,4);
+    //     return 0;
+    // }
+
+    /*--------------------------- Return Type -----------------------------------------*/
+    // when we declare a Return Type Function we don't use Void , We use int() ********************* 
+     
+    int addNumbers (int number1, int number2){
+        int sum = number1 + number2;
+        return sum;
     }
 
     int main(){
-        addNumbers(3,4);
+        int result = addNumbers(5,6);
+        printf("Result= %d", result);
+
+
         return 0;
     }
+    /*------------------------------------------ Return Type End ---------------------------------------------*/
 
     // int addNumbers( int a, int b);         // function prototyep
 
