@@ -10,17 +10,27 @@
     //     greet();
     //     return 0;
     // }
+    /* Calculate Square without return type on C User defined function */
+    // void calculateSquare(int number){
+    //     int square = number * number;
+    //     printf("Square of %d is %d\n", number, square);
+    // }
 
-    void calculateSquare(int number){
-        int square = number * number;
-        printf("Square of %d is %d\n", number, square);
+    // int main(){
+    //     calculateSquare(5);
+    //     return 0;
+    // }
+
+
+    void addNumbers(int number1, int number2){
+         int sum = number1 + number2;
+         printf("Sum of %d and %d is %d\n", number1, number2, sum);
     }
 
     int main(){
-        calculateSquare(5);
+        addNumbers(3,4);
         return 0;
     }
-
 
     // int addNumbers( int a, int b);         // function prototyep
 
