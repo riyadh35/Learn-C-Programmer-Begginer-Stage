@@ -9,3 +9,18 @@ int main(){
         printf("Square root is %f", result);
     return 0;
 }
+
+
+/* 
+        in C Programme main() is also funciton in c programmint it's the first functions in C programming
+
+
+        int main(){
+        .........
+        .........
+        .........
+
+        return 0;
+        }
+*/
+
