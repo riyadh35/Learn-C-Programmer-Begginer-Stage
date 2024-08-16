@@ -35,19 +35,42 @@
     /*--------------------------- Return Type -----------------------------------------*/
     // when we declare a Return Type Function we don't use Void , We use int() ********************* 
      
-    int addNumbers (int number1, int number2){
-        int sum = number1 + number2;
-        return sum;
-    }
+    // int addNumbers (int number1, int number2){
+    //     int sum = number1 + number2;
+    //     return sum;
+    // }
+
+    // int main(){
+    //     int result = addNumbers(5,6);
+    //     printf("Result = %d", result);
+
+
+    //     return 0;
+    // }
+    /*------------------------------------------ Return Type End ---------------------------------------------*/
+
+    /* --------------------------------------- Function Prototype in C ---------------------------------------------*/
+
+
+
+    int addNumbers(int number1, int number2);
 
     int main(){
-        int result = addNumbers(5,6);
-        printf("Result= %d", result);
-
-
+        int result = addNumbers(7,8);
+        printf("Result = %d\n", result);
         return 0;
+
+     
     }
-    /*------------------------------------------ Return Type End ---------------------------------------------*/
+    int addNumbers(int number1, int number2){
+        int sum = number1 + number2;
+        return sum;
+           // Nothing will print after return type
+
+        printf("After return type.");
+    }
+
+    /* ----------------------------------------Function Prototype end ----------------------------------------------*/
 
     // int addNumbers( int a, int b);         // function prototyep
 
