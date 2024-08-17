@@ -189,5 +189,3 @@ int checkPrimeNumber(int n){
 
 
 
-
-
