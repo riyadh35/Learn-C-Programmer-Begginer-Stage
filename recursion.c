@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Calculation of sum of natural number using recursion
 int main(){
     int number, result;
 
@@ -15,7 +15,8 @@ int main(){
 int sum(int n){
     if (n != 0)
         // sum() function call itself
-        return n+sum(n-1);
+        return n + sum(n-1);
     else
         return n;
 }
+
