@@ -60,18 +60,25 @@ int main(){
 
     int age[5];
 
-    // age[0] = 23;
+     // age[0] = 23;
     // age[1] = 4;
     // age[2] = 5;
     // age[3] = 56;
     // age[4] = 299;
-    /* Get Input Value From User */
-    printf("Enter 5 input values: ");
-    scanf("%d", &age[0]);
-    scanf("%d", &age[1]);
-    scanf("%d", &age[2]);
-    scanf("%d", &age[3]);
-    scanf("%d", &age[4]);
+
+     /* Loop and array */
+    for(int i = 0 ; i < 5 ; ++i){
+        printf("Enter 5 input values: ");
+        scanf("%d", &age[i]);
+    }
+   
+    // /* Get Input Value From User */
+    // printf("Enter 5 input values: ");
+    // scanf("%d", &age[0]);
+    // scanf("%d", &age[1]);
+    // scanf("%d", &age[2]);
+    // scanf("%d", &age[3]);
+    // scanf("%d", &age[4]);
 
     printf("%d " , age[0]);
     printf("%d " , age[1]);
@@ -82,6 +89,7 @@ int main(){
     return 0;
 }
 
+// --------------------------- Loop & Array ------------------
 
 /* 
     int main(){
