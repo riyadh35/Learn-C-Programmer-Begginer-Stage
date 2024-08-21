@@ -54,6 +54,27 @@ This is because the size of a float is 4 bytes. */
 
 #include <stdio.h>
 
+// we can assign value by particular index
+
+int main(){
+
+    int age[5];
+
+    age[0] = 23;
+    age[1] = 4;
+    age[2] = 5;
+    age[3] = 56;
+    age[4] = 299;
+
+    printf("%d " , age[0]);
+    printf("%d " , age[1]);
+    printf("%d " , age[2]);
+    printf("%d " , age[3]);
+    printf("%d " , age[4]);
+
+    return 0;
+}
+
 
 /* 
     int main(){
@@ -82,7 +103,7 @@ This is because the size of a float is 4 bytes. */
 // Example 2: Calculate Average
 
 // Program to find the average of n numbers using arrays
-int main(){
+/* int main(){
     int marks[10] , i, n, sum = 0 ;
     double average;
 
@@ -105,4 +126,4 @@ int main(){
     printf("Average = %2lf", average);
 
     return 0;
-}
+} */
