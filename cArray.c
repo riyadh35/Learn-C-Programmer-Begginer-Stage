@@ -67,6 +67,8 @@ int main(){
     // age[4] = 299;
 
      /* Loop and array */
+
+     /* Get Array From Users */
     for(int i = 0 ; i < 5 ; ++i){
         printf("Enter 5 input values: ");
         scanf("%d", &age[i]);
@@ -80,12 +82,15 @@ int main(){
     // scanf("%d", &age[3]);
     // scanf("%d", &age[4]);
 
-    printf("%d " , age[0]);
-    printf("%d " , age[1]);
-    printf("%d " , age[2]);
-    printf("%d " , age[3]);
-    printf("%d " , age[4]);
 
+
+    /* Print Array from that get from users */
+    for(int i = 0 ; i <5 ; ++i){
+    printf("%d " , age[i]);
+    }
+
+
+    
     return 0;
 }
 
