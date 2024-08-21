@@ -58,41 +58,46 @@ This is because the size of a float is 4 bytes. */
 
 int main(){
 
-    int age[5];
+    int age[5]= {2,4,5};
 
-     // age[0] = 23;
-    // age[1] = 4;
-    // age[2] = 5;
-    // age[3] = 56;
-    // age[4] = 299;
+    printf("%d", age[4]);
 
-     /* Loop and array */
 
-     /* Get Array From Users */
-    for(int i = 0 ; i < 5 ; ++i){
-        printf("Enter 5 input values: ");
-        scanf("%d", &age[i]);
-    }
+}
+// 
+//      // age[0] = 23;
+//     // age[1] = 4;
+//     // age[2] = 5;
+//     // age[3] = 56;
+//     // age[4] = 299;
+
+//      /* Loop and array */
+
+//      /* Get Array From Users */
+//     for(int i = 0 ; i < 5 ; ++i){
+//         printf("Enter 5 input values: ");
+//         scanf("%d", &age[i]);
+//     }
    
-    // /* Get Input Value From User */
-    // printf("Enter 5 input values: ");
-    // scanf("%d", &age[0]);
-    // scanf("%d", &age[1]);
-    // scanf("%d", &age[2]);
-    // scanf("%d", &age[3]);
-    // scanf("%d", &age[4]);
+//     // /* Get Input Value From User */
+//     // printf("Enter 5 input values: ");
+//     // scanf("%d", &age[0]);
+//     // scanf("%d", &age[1]);
+//     // scanf("%d", &age[2]);
+//     // scanf("%d", &age[3]);
+//     // scanf("%d", &age[4]);
 
 
 
-    /* Print Array from that get from users */
-    for(int i = 0 ; i <5 ; ++i){
-    printf("%d " , age[i]);
-    }
+//     /* Print Array from that get from users */
+//     for(int i = 0 ; i <5 ; ++i){
+//     printf("%d " , age[i]);
+//     }
 
 
     
-    return 0;
-}
+//     return 0;
+// }
 
 // --------------------------- Loop & Array ------------------
 
