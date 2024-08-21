@@ -54,8 +54,9 @@ This is because the size of a float is 4 bytes. */
 
 #include <stdio.h>
 
-int main(){
 
+/* 
+    int main(){
     int values[5];
     printf("Enter 5 intergers: ");
 
@@ -63,7 +64,7 @@ int main(){
 
     for (int i = 0 ; i <5 ; ++i){
 
-        scanf("%d", &values[i]);
+        scanf("%d", &values[i]); 
     }
 
     printf("Displaying intergers: ");
@@ -73,6 +74,35 @@ int main(){
     for(int i = 0; i < 5; ++i){
         printf("%d\n", values[i]);
     }
+
+    return 0;
+} */
+
+
+// Example 2: Calculate Average
+
+// Program to find the average of n numbers using arrays
+int main(){
+    int marks[10] , i, n, sum = 0 ;
+    double average;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    for(i= 0 ; i < n; ++i){
+        printf("Enter number%d: ", i+1);
+        scanf("%d", &marks[i]);
+
+        // Adding integers entered by the user to the sum variable 
+
+        sum += marks[i];
+    }
+
+    // explicitly convert sum to double 
+    // then calculate average
+
+    average = (double) sum/n;
+    printf("Average = %2lf", average);
 
     return 0;
 }
