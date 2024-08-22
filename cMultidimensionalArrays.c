@@ -25,6 +25,12 @@ int main(){
 
     // arr[1][2];
 
+
+    /// change position
+
+    arr[0][0] = 9;
+    arr[1][2] = 5; 
+
     printf("%d\n",arr[0][0]);
     printf("%d\n",arr[1][2]);
     return 0;
