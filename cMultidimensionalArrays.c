@@ -27,11 +27,20 @@ int main(){
 
 
     /// change position
-
+/* 
     arr[0][0] = 9;
     arr[1][2] = 5; 
 
     printf("%d\n",arr[0][0]);
     printf("%d\n",arr[1][2]);
-    return 0;
+    return 0; */
+
+
+    //-------- Multidimensional Array and for Loop
+    for(int i = 0; i < 2; ++i){
+        for(int j = 0; j < 3; ++j){
+            printf("%d  ", arr[i][j]);
+        }
+    }
+
 }
