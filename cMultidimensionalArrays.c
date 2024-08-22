@@ -4,6 +4,9 @@
 
 #include <stdio.h>
 
+    const int city = 2;
+    const int week = 7;
+
 int main(){
 
     // Different ways to initialize two-dimensional array 
@@ -37,10 +40,35 @@ int main(){
 
 
     //-------- Multidimensional Array and for Loop
-    for(int i = 0; i < 2; ++i){
+    /* for(int i = 0; i < 2; ++i){
         for(int j = 0; j < 3; ++j){
             printf("%d  ", arr[i][j]);
         }
+    } */
+
+
+//    Example 1: Two Dimensional Array to store and print values 
+
+    int temperature[city][week];
+
+    // Using nested loop to store values in a 2nd Array
+
+    for(int i = 0; i < city ; ++i){
+        for(int j = 0; j < week ; ++i){
+            printf("City %d, Day %d: ", i + 1 , j + 1);
+            scanf("%d", &temperature[i][j]);
+        }
     }
+
+    printf("\nDisplaying values: \n \n");
+
+    // Using nested loop to display values of a 2nd array
+
+    for(int i = 0; i < city; ++i){
+        for(int j = 0 ; j < week; ++i){
+            printf("City %d, Day %d = %d\n ", i + 1, j + 1, temperature[i][j]);
+        }
+    }
+
 
 }
