@@ -85,3 +85,17 @@ int main(){
         }
     }
  }
+
+
+ /* 
+ 
+    When passing two-dimensional arrays, it is not mandatory to specify the number of rows in the array. However, the number of columns should always be specified.
+
+    For example,
+
+    void displayNumbers(int num[][2]) {
+    // code
+}
+
+ 
+  */
