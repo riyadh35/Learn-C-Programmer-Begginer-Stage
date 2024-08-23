@@ -14,15 +14,42 @@ int main(){
 
     return 0; */
 
-    int* pc, c; 
+   /*  int* pc, c; 
     c = 5;
 
     pc = &c;
     *pc = 1;
     
     printf("%d ", *pc); // Output : 1
-    printf("%d",c); // output: 1
+    printf("%d",c); // output: 1 */
 
+
+
+/*     Example : Working of Pointer
+ */
+
+    int* pc,c;
+
+    c = 22 ;
+
+    printf("Address of c: %p\n", &c);
+    printf("Value of C: %d\n\n", c); // 22
+
+    pc = &c;
+
+    printf("Address of pointer pc: %p\n", pc);
+    printf("Content of pointer pc: %d\n\n", *pc);
+
+
+    c = 11;
+    printf("Address of pointer c: %p\n", pc);
+    printf("Value of C: %d\n\n", *pc); // 22
+
+    *pc = 2;
+    printf("Address of c: %p\n", &c);
+    printf("Value of c : %d\n\n ", c); // 2
+
+    
     return 0;
 }
 
