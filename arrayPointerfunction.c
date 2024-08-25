@@ -43,7 +43,7 @@
 
 
 // Let's write a program to print addresses of array elements 
-
+/* 
 #include <stdio.h>
 
 int main(){
@@ -56,5 +56,28 @@ int main(){
     }
 
     printf("Address of Array x: %p", x);
+    return 0;
+} */
+
+// Example 1: Pointers and Arrays
+
+#include <stdio.h>
+
+
+int main(){
+    int i,x[6], sum= 0 ;
+
+    printf("Enter 6 numbers: ");
+    for(i = 0; i < 6; ++i){
+        // Equivalent to scaf("%d", &x[i]);
+
+        scanf("%d", &x[i]);
+
+        // Equivalent to sum += x[i]
+        sum += x[i];
+    }
+
+    printf(" sum = %d", sum);
+
     return 0;
 }
