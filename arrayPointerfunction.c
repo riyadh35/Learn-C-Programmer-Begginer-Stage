@@ -21,7 +21,7 @@
 
 
 /*     Array and Pointer Example  */
-
+/* 
 
 #include <stdio.h>
     int disp(int *p){
@@ -39,3 +39,21 @@
 
         return 0;
     }
+ */
+
+
+// Let's write a program to print addresses of array elements 
+
+#include <stdio.h>
+
+int main(){
+    int x[4];
+    int i;
+    for(i = 0; i <4 ; ++i){
+        printf("&x[%d] = %p\n", i, &x[i]);
+    }
+
+    printf("Address of Array x: %p", x);
+
+    return 0;
+}
