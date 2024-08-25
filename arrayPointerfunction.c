@@ -1,21 +1,41 @@
 
 // Array & Pointer pass to function 
 
+// #include <stdio.h>
+
+// int main()
+
+    // int x[5] = {1,2,3,4,5};
+
+    // int *p;
+    // p = &x[0];
+    // printf("%d ", x[0]);
+    // printf("%d ", *p);
+    // printf("%d ", *p++);
+    // printf("%d ", ++*p);
+    // printf("%d ", *(p+4));
+    // p = &x[2];
+    // printf("%d ", *(p-1));
+
+    // return 0;
+
+
+/*     Array and Pointer Example  */
+
+
 #include <stdio.h>
+    int disp(int *p){
+        printf("%d", *p);
+        printf("%d", *(p+3));
 
-int main(){
+    }
 
-    int x[5] = {1,2,3,4,5};
+    int main()
+    {
+        int a[5] = {1,2,3,4,5};
+        {
+            disp(&a);
+        }
 
-    int *p;
-    p = &x[0];
-    printf("%d ", x[0]);
-    printf("%d ", *p);
-    printf("%d ", *p++);
-    printf("%d ", ++*p);
-    printf("%d ", ++*p);
-    p = &x[2];
-    printf("%d ", *(p-1));
-
-    return 0;
-}
+        return 0;
+    }
