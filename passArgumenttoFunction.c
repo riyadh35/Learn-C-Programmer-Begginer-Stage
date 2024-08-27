@@ -1,6 +1,15 @@
 //It is also possible to pass addresses as arguments to functions . 
 // To accept these addresses in the function definition, we can use pointers. It's because pointers are used to store addresses.
 
+/* Syntax----------------------------------------- */
+
+// void swap(int* n1, int* n2) {
+//     ... ..
+// }
+
+
+
+
 
 // Example: Pass Addresses to Function;
 
