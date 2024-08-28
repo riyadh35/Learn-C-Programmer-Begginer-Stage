@@ -13,7 +13,7 @@
 
 // Example: Pass Addresses to Function;
 
-#include <stdio.h>
+/* #include <stdio.h>
 
 void swap(int *n1, int *n2);
 
@@ -34,4 +34,24 @@ void swap(int* n1, int* n2){
     temp = *n1;
     *n1 = *n2;
     *n2 = temp;
+}
+ */
+
+
+// Example 2: Passing Pointers to Functions 
+#include <stdio.h>
+
+void addOne(int* ptr){
+    (*ptr)++; // adding 1 to *ptr
+
+}
+
+int main(){
+    int* p,i = 10;
+    p = &i;
+
+    addOne(p);
+    printf("%d", *p); //11
+
+    return 0;
 }
