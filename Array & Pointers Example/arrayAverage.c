@@ -51,6 +51,4 @@ int main(){
     avg = sum / n;
     printf("Average = %.2f", avg);
     return 0 ;
-    
-
 }
