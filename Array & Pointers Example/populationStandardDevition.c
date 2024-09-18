@@ -1,4 +1,4 @@
-// SD (Standard Deviation) of a population
+//--------------------------- SD (Standard Deviation) of a population
 
 #include <math.h>
 #include <stdio.h>
