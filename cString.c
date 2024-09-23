@@ -24,14 +24,47 @@ You can use the fgets() function to read a line of string. And, you can use puts
 
 /* Example 2: fgets() and puts() */
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(){
-    char name[30];
-    printf("Enter name: ");
-    fgets(name, sizeof(name), stdin);  // read string
-    printf("Name: ");
+// int main(){
+//     char name[30];
+//     printf("Enter name: ");
+//     fgets(name, sizeof(name), stdin);  // read string
+//     printf("Name: ");
 
-    puts(name);    // display string
-    return 0;
-}
+//     puts(name);    // display string
+//     return 0;
+// }
+
+
+
+/* Passing Strings to Functions
+Strings can be passed to a function in a similar way as arrays. Learn more about passing arrays to a function. */
+
+
+/* Example 3: Passing string to a Function */
+
+// #include <stdio.h>
+
+
+// void displayString(char str[]);
+
+// int main(){
+//     char str[50];
+//     printf("Enter string: ");
+//     fgets(str, sizeof(str), stdin);
+//     displayString(str);         // Passing string to a function.
+//     return 0;
+// }
+
+// void displayString(char str[]){
+//     printf("String Output: ");
+//     puts(str);
+// }
+
+
+
+/* Strings and Pointers
+Similar like arrays, string names are "decayed" to pointers. Hence, you can use pointers to manipulate elements of the string. We recommended you to check C Arrays and Pointers before you check this example.
+
+ */
